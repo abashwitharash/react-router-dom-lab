@@ -9,16 +9,15 @@ const selectedBox = props.mailboxes.find((mailbox) => (
 
 return (
     <>
-      <h2>Box Details</h2>
-      <dl>
+      <h1>Box Details📦</h1>
+      <dl className="boxlife">
+        <dt>Boxholder:</dt>
+        <dd>{ selectedBox.boxOwner }</dd>
         <dt>Boxsize:</dt>
         <dd>{ selectedBox.boxSize }</dd>
-        <dt>Owner:</dt>
-        <dd>{ selectedBox.boxOwner }</dd>
       </dl>
     </>
   );
 };
-
 
 export default MailboxDetails;

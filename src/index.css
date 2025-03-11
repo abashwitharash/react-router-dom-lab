@@ -84,6 +84,16 @@ ul {
   list-style: none;
 }
 
+.boxlife {
+  text-align: center;
+  color: pink;
+  border: solid white;
+  background-color: blueviolet;
+  font-size: larger;
+  border-radius: 12px;
+  width: 150px;
+}
+
 li {
   margin-right: 16px;
 }
